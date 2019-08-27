@@ -15,13 +15,13 @@ def rolldice():
     elif dice >51 and dice <= 100:
         return True # Player win
 
-def play(total_funds, wager_amount, total_plays):
+def play(total_funds, wager_amount, number_of_plays):
     Funds = []
     Play_nums = []
 
     play = 1
     # if win
-    while play < total_plays:
+    while play < number_of_plays:
         if rolldice():
             total_funds = total_funds + wager_amount
             Play_nums.append(play)
