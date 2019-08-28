@@ -1,4 +1,4 @@
-# Dice-simulation
+# Game-simulation (Dice)
 ##  I created a game called Roll-Dice-100, when ever a player rolls a dice to get an result of 1 to 100. If the player rolls anything from 1 to 51, the house wins, but if the number is from 52–100, the player wins.
 
 ###  I use python to create this game, there are serval strings in the program: 
